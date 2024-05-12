@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 80px;
+  background-color: #143d5e;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  /* padding-top:20px; */
+}
+
+.main h1 {
+  padding-top: 10px;
+}
+
+.menu {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+
+}
+
+.content {
+  margin: 60px 60px 10px 60px;
+}
+
+.content h1 {
+  font-size: 30px;
+  color: #4b2b61;
+}
+
+.records {
+  width: 80%;
+  margin: auto;
+}
+
+.records table thead {
+  background-color: #4b2b61;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+.records table {
+  width: 100%;
+}
+
+.records table tbody {
+  text-align: center;
+  height: 30px;
+}
+
+.edit {
+  background: yellow;
+  border-radius: 5px;
+  width: 70px;
+  /* height:20px;
+  text-align:center;
+  padding:5px;
+  margin:5px; */
+  cursor: pointer;
+  height: 20px;
+}
+
+.delete {
+  background: red;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AddRecord {
+  width: 50%;
+  margin: auto;
+  background-color: #d7dde3;
+  /* margin: 30px 0 30px 0; */
+  /* height: 60%; */
+  border-radius: 10px;
+}
+
+.AddRecord form section {
+  width: 40%;
+  padding-top: 20px;
+  /* padding-bottom: 6px; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* background-color: burlywood; */
+  /* align-items: center; */
+}
+
+.AddRecord form section input {
+  /* width: 60%; */
+  margin-left: 20px;
+  height: 23px;
+  border-radius: 5px;
+  font-size: 15px;
+
+
+}
+
+.AddRecord form section label {
+  font-weight: 600;
+}
+
+.AddRecord form section {
+  /* width: 40%; */
+  margin-bottom: 5px;
+}
+
+.btnsave {
+  width: 30%;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.AddRecord form section select {
+  margin-left: 20px;
+  height: 23px;
+  border-radius: 5px;
+}
+
+.btnshow {
+  width: 30%;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.b a {
+  list-style-type: none;
+  text-decoration: none;
+}
